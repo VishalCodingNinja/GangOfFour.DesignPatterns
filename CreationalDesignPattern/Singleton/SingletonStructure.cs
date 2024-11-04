@@ -1,4 +1,4 @@
-﻿namespace GangOfFour.Singleton
+﻿namespace GangOfFour.CreationalDesignPattern.Singleton
 {
 
     /// <summary>

@@ -1,5 +1,5 @@
 ﻿using static System.Console;
-namespace GangOfFour.Singleton.Optimised
+namespace GangOfFour.CreationalDesignPattern.Singleton
 {
     public class SingletonOptimised
     {
