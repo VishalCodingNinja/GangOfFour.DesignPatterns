@@ -1,49 +1,63 @@
-What are Design Patterns?
-#
-Design patterns are solutions to software design problems you find again and again in real-world application development. Patterns are about reusable designs and interactions of objects.
+# Design Patterns
 
-The 23 Gang of Four (GoF) patterns are generally considered the foundation for all other patterns. They are categorized in three groups: Creational, Structural, and Behavioral (for a complete list see below). This reference provides source code for each of the 23 GoF patterns.
+Design patterns are solutions to recurring software design problems encountered in real-world application development. These patterns focus on reusable designs and object interactions.
 
+The 23 **Gang of Four (GoF)** patterns are generally considered foundational in software design. These patterns are organized into three categories: **Creational**, **Structural**, and **Behavioral**. This repository provides source code examples for each of the 23 GoF patterns.
 
-C# Design Patterns
-#
-To give you a head start, the C# source code for each pattern is provided in 3 forms: structural, real-world, and .NET optimized.
+---
 
+## C# Design Patterns
 
-Structural code uses type names as defined in the pattern definition and UML diagrams. Real-world code provides real-world programming situations where you may use these patterns. The third form, .NET optimized, demonstrates design patterns that fully exploit the latest C# and .NET features, such as, generics, reflection, lambdas, primary constructors, and more.
+This repository includes the C# source code for each pattern in three different forms:
 
+1. **Structural** - Uses type names as defined in the pattern definition and UML diagrams.
+2. **Real-world** - Demonstrates practical programming scenarios where each pattern can be applied.
+3. **.NET optimized** - Shows patterns fully utilizing modern C# and .NET features like generics, reflection, lambdas, and primary constructors.
 
-Creational Patterns
-#
+---
 
-Abstract Factory	Creates an instance of several families of classes
-Builder	Separates object construction from its representation
-Factory Method	Creates an instance of several derived classes
-Prototype	A fully initialized instance to be copied or cloned
-Singleton	A class of which only a single instance can exist
+## Creational Patterns
 
-Structural Patterns
-#
+| Pattern          | Description                                              |
+|------------------|----------------------------------------------------------|
+| **Abstract Factory** | Creates an instance of several families of classes     |
+| **Builder**          | Separates object construction from its representation |
+| **Factory Method**   | Creates an instance of several derived classes        |
+| **Prototype**        | A fully initialized instance to be copied or cloned   |
+| **Singleton**        | A class of which only a single instance can exist     |
 
-Adapter	Match interfaces of different classes
-Bridge	Separates an object’s interface from its implementation
-Composite	A tree structure of simple and composite objects
-Decorator	Add responsibilities to objects dynamically
-Facade	A single class that represents an entire subsystem
-Flyweight	A fine-grained instance used for efficient sharing
-Proxy	An object representing another object
+---
 
-Behavioral Patterns
-#
+## Structural Patterns
 
-Chain of Resp.	A way of passing a request between a chain of objects
-Command	Encapsulate a command request as an object
-Interpreter	A way to include language elements in a program
-Iterator	Sequentially access the elements of a collection
-Mediator	Defines simplified communication between classes
-Memento	Capture and restore an object's internal state
-Observer	A way of notifying change to a number of classes
-State	Alter an object's behavior when its state changes
-Strategy	Encapsulates an algorithm inside a class
-Template Method	Defer the exact steps of an algorithm to a subclass
-Visitor	Defines a new operation to a class without change
+| Pattern          | Description                                              |
+|------------------|----------------------------------------------------------|
+| **Adapter**          | Match interfaces of different classes                  |
+| **Bridge**           | Separates an object’s interface from its implementation|
+| **Composite**        | A tree structure of simple and composite objects       |
+| **Decorator**        | Adds responsibilities to objects dynamically           |
+| **Facade**           | A single class representing an entire subsystem        |
+| **Flyweight**        | A fine-grained instance used for efficient sharing     |
+| **Proxy**            | An object representing another object                  |
+
+---
+
+## Behavioral Patterns
+
+| Pattern          | Description                                              |
+|------------------|----------------------------------------------------------|
+| **Chain of Responsibility** | Passes a request between a chain of objects      |
+| **Command**                 | Encapsulates a command request as an object      |
+| **Interpreter**             | Allows inclusion of language elements in a program|
+| **Iterator**                | Sequentially accesses elements of a collection   |
+| **Mediator**                | Simplifies communication between classes         |
+| **Memento**                 | Captures and restores an object's internal state |
+| **Observer**                | Notifies multiple classes of changes             |
+| **State**                   | Alters an object's behavior based on its state   |
+| **Strategy**                | Encapsulates an algorithm within a class         |
+| **Template Method**         | Defers steps of an algorithm to a subclass       |
+| **Visitor**                 | Adds new operations to a class without modifying it |
+
+---
+
+Each pattern example is structured to provide clarity and applicability for both academic study and real-world application. Explore each pattern folder for the code and additional notes.
