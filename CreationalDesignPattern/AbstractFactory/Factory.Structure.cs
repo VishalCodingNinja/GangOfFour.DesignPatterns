@@ -1,4 +1,4 @@
-﻿namespace GangOfFour.CreationalDesignPattern.Factory.StructuralCode
+﻿namespace GangOfFour.CreationalDesignPattern.AbstractFactory.StructuralCode
 {
 
     /// <summary>

@@ -1,11 +1,8 @@
-﻿namespace GangOfFour.CreationalDesignPattern.Factory.Realworld
+﻿namespace GangOfFour.CreationalDesignPattern.AbstractFactory.Realworld
 {
-
     /// <summary>
-    /// MainApp startup class for Real-World
     /// Abstract Factory Design Pattern.
     /// </summary>
-
 
     //Imp Note: Creates an instance of several families of classes
     class Realworld
@@ -112,7 +109,7 @@
         {
             // Eat Wildebeest
 
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " eats " + h.GetType().Name);
         }
     }
@@ -135,7 +132,7 @@
         {
             // Eat Bison
 
-            Console.WriteLine(this.GetType().Name +
+            Console.WriteLine(GetType().Name +
               " eats " + h.GetType().Name);
         }
     }

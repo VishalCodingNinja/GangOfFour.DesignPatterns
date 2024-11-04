@@ -1,5 +1,5 @@
 ﻿using static System.Console;
-namespace GangOfFour.CreationalDesignPattern.Factory.OptimizedCode
+namespace GangOfFour.CreationalDesignPattern.AbstractFactory.OptimizedCode
 {
 
     /// <summary>
